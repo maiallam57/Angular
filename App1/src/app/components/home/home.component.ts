@@ -8,5 +8,5 @@ import { Component } from "@angular/core";
     styleUrl: "./home.component.css"
 })
 export default class HomeComponent {
-
+    userName: string = "Mai Allam";
 }
