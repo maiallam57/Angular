@@ -37,3 +37,7 @@ type ProductType = {
 type SuperProductType = ProductType & {
     onSale?: boolean
 }
+
+function returnVar<itsType>(variable: itsType): itsType {
+    return variable;
+}
