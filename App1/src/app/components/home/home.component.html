@@ -4,5 +4,11 @@
     <h2>My Age is {{userAge}}</h2>
 
 
-    <input type="text" [(ngModel)]="userName">
+    <!-- two Way data binding -->
+    <!-- wrong way -->
+    <input type="text" [value]="userName" (keyup)="changeName($event)">
+
+
+    <!-- right way -->
+    <!-- <input type="text" [(ngModel)]="userName"> -->
 </div>

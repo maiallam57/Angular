@@ -14,4 +14,9 @@ export default class HomeComponent {
 
     userName: string = "Mai Allam";
     userAge: number = 23;
+
+
+    changeName(e: any) {
+        this.userName = e.target.value;
+    }
 }
