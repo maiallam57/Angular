@@ -1,0 +1,30 @@
+<div class="container bg-black p-10 text-2xl">
+    <div class="row">
+        @for (item of productList; track item.id) {
+        <div class="w-1/3 text-white p-4">
+            <div class="bg-gray-800 p-4 rounded-xl">
+                <img [src]="item.image" class="w-full" alt="">
+                <div class="flex justify-between">
+                    <div class="text-lg py-2">
+                        <h3>{{item.name}}</h3>
+                        <h4 class="text-gray-300">{{item.price}}$</h4>
+                        @if (item.count > 1) {
+                        <h5 class="text-green-600">In Stock</h5>
+                        }@else {
+                        <h5 class="text-red-600">Out Of Stock</h5>
+                        }
+                        <h6>Model: {{item.model}}</h6>
+                    </div>
+                    <div>
+                        <button class="bg-yellow-500 rounded-xl px-3 py-1 my-8">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+        @empty {
+        <h2 class="text-center p-10 text-5xl">Sorry, We don't have any data at the moment!</h2>
+        }
+    </div>
+
+</div>
