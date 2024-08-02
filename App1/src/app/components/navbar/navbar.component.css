@@ -1,0 +1,12 @@
+a,
+h1 {
+    @apply py-1 px-4;
+}
+
+.active {
+    @apply text-red-400 bg-transparent rounded-lg border-2 border-red-400;
+}
+
+a:hover {
+    @apply text-red-400 bg-transparent rounded-lg border-2 border-red-400;
+}
