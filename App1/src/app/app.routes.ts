@@ -8,6 +8,7 @@ import { NgforNgifComponent } from './components/ngfor-ngif/ngfor-ngif.component
 import { ContactComponent } from './components/contact/contact.component';
 import { WebComponent } from './components/web/web.component';
 import { MobileComponent } from './components/mobile/mobile.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 export const routes: Routes = [
     { path: "", redirectTo: "home", pathMatch: "full" },
@@ -28,5 +29,5 @@ export const routes: Routes = [
 
 
 
-
+    { path: "**", component: NotFoundComponent },
 ];
