@@ -53,15 +53,15 @@
 - **Angular architecture**
     - version 16
     
-    ![angular-arch.jpg](ang-week1%207fcb761244524c1d91d861077b053154/angular-arch.jpg)
+    ![angular-arch.jpg](https://raw.githubusercontent.com/maiallam57/Angular/app1/angular-arch.jpg)
     
     - another image
         
-        ![archh.jpg](ang-week1%207fcb761244524c1d91d861077b053154/archh.jpg)
+        ![archh.jpg](https://raw.githubusercontent.com/maiallam57/Angular/app1/archh.jpg)
         
     - version 17
         
-        ![angular - arch.jpg](ang-week1%207fcb761244524c1d91d861077b053154/angular_-_arch.jpg)
+        ![angular - arch.jpg](https://raw.githubusercontent.com/maiallam57/Angular/app1/angular_-_arch.jpg)
         
 - **Create Component with cli**
     - generate component with unit test
@@ -78,7 +78,7 @@
     
     - or angular json configuration to skip test file
         
-        ![Untitled](ang-week1%207fcb761244524c1d91d861077b053154/Untitled.png)
+        ![Untitled](https://raw.githubusercontent.com/maiallam57/Angular/app1/Untitled.png)
         
     - Create Multi-Component with single commaned
         
@@ -109,7 +109,7 @@
     - bootstrap —→ This is the initial component that loads when the app starts.
     - providers —→ provide services to app root injector
         
-        ![Untitled](ang-week1%207fcb761244524c1d91d861077b053154/Untitled%201.png)
+        ![Untitled](https://raw.githubusercontent.com/maiallam57/Angular/app1/Untitled%201.png)
         
 - **install bootstrap - fontawesome**
     - npm i bootstrap
@@ -123,7 +123,7 @@
         - So when you load the application for the first time, not all the pages from the server will be rendered... It's only `index.html` that loads when you load the application. Since only a single page is loaded it is called SPA
         - 
             
-            ![test.jpg](ang-week1%207fcb761244524c1d91d861077b053154/test.jpg)
+            ![test.jpg](https://raw.githubusercontent.com/maiallam57/Angular/app1/test.jpg)
             
         
     
@@ -264,7 +264,7 @@
             - **one-way data bind**
                 - **Interpolation Binding   —→ {{ }}**
                     
-                    ![Untitled](ang-week2%201ba7e57728ff42a3b8e05d7296add9d5/Untitled.png)
+                    ![Untitled](https://raw.githubusercontent.com/maiallam57/Angular/app1/Untitled.png)
                     
                     ```html
                     <h2>{{value}}</h2>
@@ -301,11 +301,11 @@
                     ```
                     
                 
-                ![Untitled](ang-week2%201ba7e57728ff42a3b8e05d7296add9d5/Untitled%201.png)
+                ![Untitled](https://raw.githubusercontent.com/maiallam57/Angular/app1/Untitled%201.png)
                 
-                ![Untitled](ang-week2%201ba7e57728ff42a3b8e05d7296add9d5/Untitled%202.png)
+                ![Untitled](https://raw.githubusercontent.com/maiallam57/Angular/app1/Untitled%202.png)
                 
-                ![Untitled](ang-week2%201ba7e57728ff42a3b8e05d7296add9d5/Untitled%203.png)
+                ![Untitled](https://raw.githubusercontent.com/maiallam57/Angular/app1/Untitled%203.png)
                 
                 - **ternary operator —→  condition? doThisIfTrue : doThisIfFalse**
                     
@@ -381,7 +381,7 @@
                     
                     - $index and other contextual variables
                     
-                    ![Untitled](ang-week2%201ba7e57728ff42a3b8e05d7296add9d5/Untitled%204.png)
+                    ![Untitled](https://raw.githubusercontent.com/maiallam57/Angular/app1/Untitled%204.png)
                     
             
             - **empty block**
@@ -573,9 +573,9 @@
         - **transfer data from parent to child**
             - A common pattern in Angular is sharing data between a parent component and one or more child components
             
-            ![Untitled](ang-week2%201ba7e57728ff42a3b8e05d7296add9d5/Untitled%205.png)
+            ![Untitled](https://raw.githubusercontent.com/maiallam57/Angular/app1/Untitled%205.png)
             
-            ![Untitled](ang-week2%201ba7e57728ff42a3b8e05d7296add9d5/Untitled%206.png)
+            ![Untitled](https://raw.githubusercontent.com/maiallam57/Angular/app1/Untitled%206.png)
             
             - **Sending data to a child component**
             - **Child Component**
@@ -629,9 +629,9 @@
                 
         - **two way binding**
             
-            ![Untitled](ang-week2%201ba7e57728ff42a3b8e05d7296add9d5/Untitled%207.png)
+            ![Untitled](https://raw.githubusercontent.com/maiallam57/Angular/app1/Untitled%207.png)
             
-            ![Untitled](ang-week2%201ba7e57728ff42a3b8e05d7296add9d5/Untitled%208.png)
+            ![Untitled](https://raw.githubusercontent.com/maiallam57/Angular/app1/Untitled%208.png)
             
             - import FormsModule in app module —→ import { FormsModule } from '@angular/forms';
                 
