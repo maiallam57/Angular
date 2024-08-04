@@ -1,0 +1,18 @@
+<div class="bg-gray-800 p-4 rounded-xl">
+    <img [src]="product.image" class="w-full" alt="">
+    <div class="flex justify-between">
+        <div class="text-lg py-2">
+            <h3>{{product.name}}</h3>
+            <h4 class="text-gray-300">{{product.price}}$</h4>
+            @if (product.count > 1) {
+            <h5 class="text-green-600">In Stock</h5>
+            }@else {
+            <h5 class="text-red-600">Out Of Stock</h5>
+            }
+            <h6>Model: {{product.model}}</h6>
+        </div>
+        <div>
+            <button class="bg-yellow-500 rounded-xl px-3 py-1 my-8">Add To Cart</button>
+        </div>
+    </div>
+</div>
