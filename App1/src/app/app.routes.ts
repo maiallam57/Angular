@@ -9,6 +9,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { WebComponent } from './components/web/web.component';
 import { MobileComponent } from './components/mobile/mobile.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { LazyLoadingComponent } from './components/lazy-loading/lazy-loading.component';
 
 export const routes: Routes = [
     { path: "", redirectTo: "home", pathMatch: "full" },
@@ -25,6 +26,7 @@ export const routes: Routes = [
     },
     { path: "ngforNgif", component: NgforNgifComponent },
     { path: "contact", component: ContactComponent },
+    { path: "lazyloading", component: LazyLoadingComponent },
 
 
 
