@@ -13,23 +13,23 @@ import { LazyLoadingComponent } from './components/lazy-loading/lazy-loading.com
 
 export const routes: Routes = [
     { path: "", redirectTo: "home", pathMatch: "full" },
-    { path: "home", component: HomeComponent },
-    { path: "about", component: AboutComponent },
-    { path: "binding", component: BindingComponent },
-    { path: "controlFlow", component: ControlFlowComponent },
+    { path: "home", component: HomeComponent, title: "Home" },
+    { path: "about", component: AboutComponent, title: "About" },
+    { path: "binding", component: BindingComponent, title: "Binding" },
+    { path: "controlFlow", component: ControlFlowComponent, title: "Control Flow" },
     {
-        path: "gallery", component: GalleryComponent, children: [
-            { path: "", redirectTo: "home", pathMatch: "full" },
-            { path: "web", component: WebComponent },
-            { path: "mobile", component: MobileComponent },
+        path: "gallery", component: GalleryComponent, title: "aGllery", children: [
+            { path: "", redirectTo: "web", pathMatch: "full" },
+            { path: "web", component: WebComponent, title: "Web" },
+            { path: "mobile", component: MobileComponent, title: "Mobile" },
         ]
     },
-    { path: "ngforNgif", component: NgforNgifComponent },
-    { path: "contact", component: ContactComponent },
-    { path: "lazyloading", component: LazyLoadingComponent },
+    { path: "ngforNgif", component: NgforNgifComponent, title: "Ngfor NgIf" },
+    { path: "contact", component: ContactComponent, title: "Contact" },
+    { path: "lazyloading", component: LazyLoadingComponent, title: "Lazy Loading" },
 
 
 
 
-    { path: "**", component: NotFoundComponent },
+    { path: "**", component: NotFoundComponent, title: "Not Found" },
 ];
